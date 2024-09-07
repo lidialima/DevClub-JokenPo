@@ -30,5 +30,5 @@ Este é um projeto criado como parte dos desafios do DevClub, trazendo uma vers�
 2. Abra o arquivo `index.html` no seu navegador para jogar.
 
 
-🌐 Deploy: [link do deploy]
+🌐 Deploy: [[link do deploy](https://lidialima.github.io/DevClub-JokenPo/)]
 
