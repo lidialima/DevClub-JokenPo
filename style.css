@@ -95,3 +95,7 @@ p {
 .machine-score span {
     color: rgb(219, 47, 47);
 }
+
+#resetScore {
+   background-color: transparent;
+}

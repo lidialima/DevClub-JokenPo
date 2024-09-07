@@ -2,6 +2,12 @@ const result = document.querySelector('.result')
 const humanScore = document.querySelector('#human-score')
 const machineScore = document.querySelector('#machine-score')
 
+// Função para resetar o placar
+document.getElementById('resetScore').addEventListener('click', () => {
+    humanScore.textContent = '0';
+    machineScore.textContent = '0';
+  });
+
 let humanScoreNumber = 0
 let machineScoreNumber = 0
 
