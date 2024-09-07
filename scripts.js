@@ -6,6 +6,10 @@ const machineScore = document.querySelector('#machine-score')
 document.getElementById('resetScore').addEventListener('click', () => {
     humanScore.textContent = '0';
     machineScore.textContent = '0';
+
+     // Zera também as variáveis que armazenam as pontuações
+     humanScoreNumber = 0;
+     machineScoreNumber = 0;
   });
 
 let humanScoreNumber = 0
