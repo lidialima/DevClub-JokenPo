@@ -1,0 +1,97 @@
+@font-face {
+    font-family: okashi;
+    src: url(fonts/OkashiRegular-L33Z3.ttf) format(truetype);
+
+    /*
+    TIPOS DE FORMAT()
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    truetype-aat (Apple Advanced Typography)
+    - svg
+     */
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: okashi;
+}
+
+body {
+    height: 100vh;
+    background-image: url(./img/Fighting\ Gifs.gif);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    margin: 30px 0;
+    display: flex;
+    gap: 40px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+button img {
+    width: 50px;  /* Define a largura da imagem */
+    height: 50px; /* Define a altura da imagem */
+
+  }
+
+#rock {
+    background-color: #BE4D6E;
+}
+
+#paper {
+    background-color: #42486B;
+}
+
+#scissors {
+    background-color: #955A11;
+}
+
+.result {
+    color: #a0113c;
+    border: 07px solid transparent;
+    background-color: #a7acc9;
+    border-radius: 45px;
+}
+
+
+p {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.your-score span {
+    color: rgb(62, 133, 195);
+}
+
+.machine-score span {
+    color: rgb(219, 47, 47);
+}
